@@ -1,0 +1,49 @@
+div#aaa{
+	border: solid black;
+	width: 100px;
+	height: 40px;
+	background-color: orange;
+
+	-webkit-animation-name: slidein;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-delay: 0s;
+		-webkit-animation-timing-function: ease;
+  -webkit-animation-iteration-count: 3;
+  /*-webkit-animation-direction: alternate;*/
+
+}
+div#bbb{
+	border: solid black;
+	width: 100px;
+	height: 40px;
+	background-color: orange;
+
+	-webkit-animation-name: slidein;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-timing-function: linear;
+	-webkit-animation-delay: 0s;
+  -webkit-animation-iteration-count: 3;
+  /*-webkit-animation-direction: alternate;*/
+
+}
+@-webkit-keyframes slidein{
+/*	0%{
+		margin-left: 100%;
+		background-color: blue;
+	}*/
+/*	70%{
+		margin-left: 50%;
+		background-color: blue;
+	}*/
+	100%{
+		margin-left:100%;
+		background-color: skyblue;
+	}
+}
+
+
+
+/*div:hover{
+	background-color: orange;
+	width: 500px;
+}*/
